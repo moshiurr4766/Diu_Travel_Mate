@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:tarvel_mate/pages/bus_info.dart';
 import 'package:tarvel_mate/pages/home.dart';
 import 'package:tarvel_mate/pages/login.dart';
 import 'package:tarvel_mate/pages/map.dart';
@@ -169,7 +170,7 @@ class _NavBottomState extends State<NavBottom> {
     Home(),
     TimeSchedule(),
     MapLoca(),
-    Login(),
+    BusInfo(),
     StuProfile(),
   ];
 
@@ -224,8 +225,8 @@ class _NavBottomState extends State<NavBottom> {
             label: 'Bus',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person_2_outlined),
-            label: 'Profile',
+            icon: Icon(Icons.settings),
+            label: 'Setting',
           ),
         ],
       ),

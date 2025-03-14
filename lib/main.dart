@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tarvel_mate/pages/bus_info.dart';
 import 'package:tarvel_mate/pages/design_tm.dart';
 import 'package:tarvel_mate/pages/home.dart';
 import 'package:tarvel_mate/pages/login.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         '/welcome': (context) => Welcome(),
         '/timeschedule': (context) => TimeSchedule(),
         '/stuprofile': (context) => StuProfile(),
+        '/businfo': (context) => BusInfo(),
       },
     );
   }
